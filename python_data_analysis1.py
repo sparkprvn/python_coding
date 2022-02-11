@@ -16,8 +16,8 @@ import pandas as pd
 
 # read the data and create a data frame 
 # we will try to do that dynamically meaning, the user can give a location of his choice to the variable below and then load the data , create a df
+# in this case you can find the file in /data/diabetes.csv
+path = '/data/diabetes.csv'
 
-path = 'location'
-df = pd.read_csv(path)
 
 
